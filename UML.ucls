@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" automaticImage="JPEG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="ball_bounds.base_frame" project="test" 
+    file="/test/src/ball_bounds/base_frame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1471" y="202"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="ball_bounds.canvas.hama" project="test" file="/test/src/ball_bounds/canvas.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="605" y="627"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="ball_bounds.canvas.shotdori" project="test" 
+    file="/test/src/ball_bounds/canvas.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1091" y="686"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="ball_bounds.canvas.ball" project="test" file="/test/src/ball_bounds/canvas.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="491" y="252"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="ball_bounds.canvas" project="test" file="/test/src/ball_bounds/canvas.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="666" width="380" x="763" y="-173"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="ball_bounds.My_box" project="test" file="/test/src/ball_bounds/My_box.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="582" y="-79"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <nesting id="7">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="2"/>  
+  </nesting>  
+  <dependency id="8">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="10">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="11" name="draw_panel"/>      
+      <multiplicity id="12" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="13">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </nesting>  
+  <association id="14">    
+    <bendpoint x="772" y="533"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="15" name="s1"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="17">    
+    <bendpoint x="814" y="533"/>    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="18" name="shotdoriarray"/>      
+      <multiplicity id="19" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="20">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="21" name="ballarray"/>      
+      <multiplicity id="22" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="23">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="24">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="25" name="h1"/>      
+      <multiplicity id="26" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="27">    
+    <bendpoint x="793" y="533"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </nesting>  
+  <association id="28">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="29" name="b1"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
